@@ -17,7 +17,43 @@
   --DarkBlue: hsl(218, 44%, 22%);
 }
 
+body{
+  background: var(--LightGray);
+  font-family: 'Outfit', sans-serif;
+}
 
+.container{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  /* height: 471px; */
+  /* justify-content: center; */
+  background: var(--White);
+  margin: 7% 39% ;
+  border-radius: 15px;
+}
+
+.container > img{
+  height: 289px;
+  border-radius: 15px;
+  margin: 16px 0 0 0;
+}
+
+.container > h1{
+  font-size: 22px;
+  font-weight: 700;
+  color: var(--DarkBlue);
+  text-align: center;
+  margin: 22px 40px 15px 40px;
+}
+
+.container > p{
+  font-size: 15px;
+  text-align: center;
+  color: var(--GrayishBlue);
+  font-weight: 400;
+  margin: 0 40px 21px 40px;
+}
 /******************************************
 /* ADDITIONAL STYLES
 /*******************************************/
